@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+$icoSizeS: 16px;
+$icoSize: 20px;
+$icoSizeLg: 30px;
+
+.ico {
+  display: inline-block;
+  width: $icoSize;
+  height: $icoSize;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  // file
+  &.msExcel {
+    background-image: url('../../images/svg/ms-excel-icon.svg');
+  }
+  &.msPpt {
+    background-image: url('../../images/svg/ms-powerpoint-icon.svg');
+  }
+  &.msWord {
+    background-image: url('../../images/svg/ms-word-icon.svg');
+  }
+  &.xls {
+    background-image: url('../../images/svg/xls-icon.svg');
+  }
+  &.ppt {
+    background-image: url('../../images/svg/ppt-icon.svg');
+  }
+  &.doc {
+    background-image: url('../../images/svg/doc-icon.svg');
+  }
+  // Social Media
+  &.hashtag {
+    background-image: url('../../images/svg/hashtag-icon.svg');
+  }
+  &.share-line {
+    background-image: url('../../images/svg/share-line-icon.svg');
+  }
+  &.share {
+    background-image: url('../../images/svg/share-icon.svg');
+  }
+  &.facebook-messenger {
+    background-image: url('../../images/svg/facebook-messenger-icon.svg');
+  }
+  &.facebook-round-color {
+    background-image: url('../../images/svg/facebook-round-color-icon.svg');
+  }
+  &.tiktok-color {
+    background-image: url('../../images/svg/tiktok-color-icon.svg');
+  }
+  &.x-social-media-black {
+    background-image: url('../../images/svg/x-social-media-black-icon.svg');
+  }
+  &.youtube-color {
+    background-image: url('../../images/svg/youtube-color-icon.svg');
+  }
+  &.telegram {
+    background-image: url('../../images/svg/telegram-icon.svg');
+  }
+  &.ig-instagram {
+    background-image: url('../../images/svg/ig-instagram-icon.svg');
+  }
+  // Money
+  &.dollar {
+    background-image: url('../../images/svg/dollar-icon.svg');
+  }
+  &.euro {
+    background-image: url('../../images/svg/euro-icon.svg');
+  }
+  &.krw {
+    background-image: url('../../images/svg/krw-icon.svg');
+  }
+  &.money {
+    background-image: url('../../images/svg/money-icon.svg');
+  }
+  &.pound {
+    background-image: url('../../images/svg/pound-icon.svg');
+  }
+  &.rouble {
+    background-image: url('../../images/svg/rouble-icon.svg');
+  }
+  &.rupee {
+    background-image: url('../../images/svg/rupee-icon.svg');
+  }
+  &.yen {
+    background-image: url('../../images/svg/yen-icon.svg');
+  }
+  &.yuan {
+    background-image: url('../../images/svg/yuan-icon.svg');
+  }
+  &.try {
+    background-image: url('../../images/svg/try-icon.svg');
+  }
+  // Menu
+  &.homepage {
+    background-image: url('../../images/svg/homepage-icon.svg');
+  }
+  &.hamburger-menu {
+    background-image: url('../../images/svg/hamburger-menu-icon.svg');
+    background-size: 100% auto;
+  }
+  &.sidebar-panel-collapse {
+    background-image: url('../../images/svg/sidebar-panel-collapse-icon.svg');
+  }
+  &.sidebar-panel-expand {
+    background-image: url('../../images/svg/sidebar-panel-expand-icon.svg');
+  }
+  &.content-view-detail-list {
+    background-image: url('../../images/svg/content-view-detail-list-icon.svg');
+  }
+  &.content-view-list {
+    background-image: url('../../images/svg/content-view-list-icon.svg');
+  }
+  &.content-grid {
+    background-image: url('../../images/svg/content-view-grid-icon.svg');
+  }
+  &.content-view-thumbnails {
+    background-image: url('../../images/svg/content-view-thumbnails-icon.svg');
+  }
+  &.three-horizontal-lines {
+    background-image: url('../../images/svg/three-horizontal-lines-icon.svg');
+  }
+  &.three-horizontal-lines-outline {
+    background-image: url('../../images/svg/three-horizontal-lines-outline-icon.svg');
+    background-size: 100% auto;
+  }
+  &.ellipsis-h {
+    background-image: url('../../images/svg/ellipsis-h-icon.svg');
+    background-size: 100% auto;
+  }
+  &.ellipsis-v {
+    background-image: url('../../images/svg/ellipsis-v-icon.svg');
+    background-size: auto 100%;
+  }
+  &.exitFullScreen {
+    background-image: url('../../images/svg/exitFullScreen.svg');
+  }
+}

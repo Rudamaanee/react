@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-width: $minWidth;
+  height: $headerH;
+  background-color: $white;
+  z-index: 21;
+  &::after {
+    position: fixed;
+    left: 0;
+    top:calc($headerH - 10px);
+    right: 0;
+    content: '';
+    height: 10px;
+    @extend %header-shadow;
+    z-index: -1;
+  }
+  a {
+    text-decoration: none;
+  }
+  h1 {
+    position: absolute;
+    left: 0;
+    width: $lnbW;
+    padding-left: 20px;
+    a {
+      display: block;
+      position: relative;
+      line-height: $headerH;
+      padding-left: 90px;
+      img {
+        position: absolute;
+        left: 0;
+        top: calc(50% - 12px);
+        height: 24px;
+      }
+      span {
+        display: inline-block;
+        font-size: 1.6rem;
+        color: $mainColorB;
+        vertical-align: top;
+        letter-spacing: -2px;
+      }
+    }
+  }
+  .nav {
+    margin-left: $lnbW;
+    dl {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 0;
+      + dl {
+        margin-left: 20px
+      }
+      dt {
+        position: relative;
+        height: $headerH;
+        padding: 0 10px;
+        line-height: $headerH;
+        font-weight: 400;
+        cursor: pointer;
+        a {
+          color: inherit;
+        }
+        &::before {
+          position: absolute;
+          left: 50%;
+          bottom: 0;
+          display: block;
+          content: '';
+          width: 0;
+          height: 3px;
+          background-color: $mainColorA;
+          @include transition(all, .3s);
+          @include translateX(-50%);
+        }
+      }
+      dd {
+        display: none;
+        position: absolute;
+        left: 0;
+        min-width: 100%;
+        padding: 10px 0;
+        white-space: nowrap;
+        background-color: rgba($white, .8);
+        a {
+          display: block;
+          line-height: 34px;
+          padding: 0 10px;
+          &:hover {
+            background-color: lighten($mainColorA, 40);
+          }
+        }
+        &:empty {
+          display: none;
+        }
+      }
+      &:hover {
+        dt {
+          color: $mainColorB;
+          &::before {
+            width: 100%;
+          }
+        }
+        dd {
+          display: block;
+          @include transition(all, .3s);
+          &:empty {
+            display: none;
+          }
+        }
+      }      
+    }
+  } //.nav
+} //#header

@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+$generatorColorNames: (
+  "bokBlue": $bokBlue,
+  "gold": $gold,
+  "bokGray": $bokGray,
+  "bokDarkBlue": $bokDarkBlue,
+  "silver": $silver,
+  "bokLightGray": $bokLightGray,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger
+);
+
+@each $name, $color in $generatorColorNames {
+  .#{$name}Bg {
+    background-color: $color;
+  }
+  @for $i from 1 to 10 {
+    .lighten-#{$name}-bg-#{$i * 10} {
+      background-color: lighten($color, $i * 10%);
+    }
+    .darken-#{$name}-bg-#{$i * 10} {
+      background-color: darken($color, $i * 10%);
+    }
+    .tint-#{$name}-bg-#{$i * 10} {
+      background-color: tint-color($color, $i * 10%);
+    }
+    .shade-#{$name}-bg-#{$i * 10} {
+      background-color: shade-color($color, $i * 10%);
+    }
+  }
+}
+
+[class*="darken-"],
+[class*="shade-"],
+.bokDarkBlueBg .card-title,
+.bokGrayBg .card-title {
+  color: $white !important;
+}
+
+.color-generator {
+  display: inline-block;
+  width: calc(100% / 9);
+  max-width: 50px;
+  height: 50px;
+}

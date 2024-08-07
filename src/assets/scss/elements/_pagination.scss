@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+.pagination {
+  display: block;
+  text-align: center;
+  background-color: transparent;
+  > .page {
+    width: 30px;
+    height: 30px;
+    margin: 0 1px;
+    color: $subColorB1;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    @include border-radius(4px);
+    background-color: transparent;
+    @include transition(all, .3s);
+    &.first,
+    &.prev,
+    &.next,
+    &.last {
+      position: relative;
+      > svg {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        @include translate(-50%, -50%)        ;
+      }
+      
+    }
+    &:hover {
+      color: $mainColorB;
+      font-weight: 500;
+      border-color: $mainColorB;
+      > svg {
+        @include recolor($mainColorB)
+      }
+    }
+    &.active {
+      color: $white;
+      cursor: default;
+      background-color: $mainColorB;
+    }
+  } //.page
+  &.line {
+    > .page {
+      border-color: $subColorB2;
+      background-color: $white;
+      &:hover {
+        border-color: $mainColorB;
+      }
+      &.active {
+        border-color: $mainColorB;
+        background-color: $mainColorB;
+      }
+    }
+  } // .line
+  &.circle {
+    > .page {
+      width: 32px;
+      height: 32px;
+      margin: 0 2px;
+      @include border-radius(50%);
+    }
+  }
+} //pagination

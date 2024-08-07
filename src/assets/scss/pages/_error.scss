@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.error-wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    @include translate(-50%, -50%);
+    .text-info {
+        padding: 10px 0;
+        font-size: 2rem;
+    }
+}
