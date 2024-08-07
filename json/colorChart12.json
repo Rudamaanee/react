@@ -1,0 +1,225 @@
+{
+  "bokColor": [
+    {
+      "color_name": "yellow",
+      "palette_name": "yellowPalette",
+      "class_name": "colorBox on6",
+      "default": "#ffbb34",
+      "color_palette": [
+        { "num": "50",  "hex": "#fff9e4" },
+        { "num": "100", "hex": "#ffeeba" },
+        { "num": "200", "hex": "#ffe48e" },
+        { "num": "300", "hex": "#ffdb62" },
+        { "num": "400", "hex": "#ffd146" },
+        { "num": "500", "hex": "#ffc93a" },
+        { "num": "600", "hex": "#ffbb34" },
+        { "num": "700", "hex": "#fea930" },
+        { "num": "800", "hex": "#fd992d" },
+        { "num": "900", "hex": "#fa7d27" }
+      ]
+    },
+    {
+      "color_name": "yellowOrange",
+      "palette_name": "yellowOrangePalette",
+      "class_name": "colorBox on4",
+      "default": "#ffaa33",
+      "color_palette": [
+        { "num": "50",  "hex": "#fff3e1" },
+        { "num": "100", "hex": "#ffe1b5" },
+        { "num": "200", "hex": "#ffce85" },
+        { "num": "300", "hex": "#ffb955" },
+        { "num": "400", "hex": "#ffaa33" },
+        { "num": "500", "hex": "#ff9c1d" },
+        { "num": "600", "hex": "#fb901a" },
+        { "num": "700", "hex": "#f48018" },
+        { "num": "800", "hex": "#ee7116" },
+        { "num": "900", "hex": "#e55712" }
+      ]
+    },
+    {
+      "color_name": "orange",
+      "palette_name": "orangePalette",
+      "class_name": "colorBox on6",
+      "default": "#fb8a00",
+      "color_palette": [
+        { "num": "50",  "hex": "#fff3e0" },
+        { "num": "100", "hex": "#ffdfb2" },
+        { "num": "200", "hex": "#ffcb7f" },
+        { "num": "300", "hex": "#ffb64c" },
+        { "num": "400", "hex": "#ffa525" },
+        { "num": "500", "hex": "#ff9600" },
+        { "num": "600", "hex": "#fb8a00" },
+        { "num": "700", "hex": "#f57a01" },
+        { "num": "800", "hex": "#ef6a01" },
+        { "num": "900", "hex": "#e64f01" }
+      ]
+    },
+    {
+      "color_name": "redOrange",
+      "palette_name": "redOrangePalette",
+      "class_name": "colorBox on5",
+      "default": "#FF4433",
+      "color_palette": [
+        { "num": "50",  "hex": "#ffebee" },
+        { "num": "100", "hex": "#ffced3" },
+        { "num": "200", "hex": "#f69c9a" },
+        { "num": "300", "hex": "#ee7573" },
+        { "num": "400", "hex": "#f9544f" },
+        { "num": "500", "hex": "#ff4433" },
+        { "num": "600", "hex": "#f03932" },
+        { "num": "700", "hex": "#de2e2d" },
+        { "num": "800", "hex": "#d12725" },
+        { "num": "900", "hex": "#c21818" }
+      ]
+    },
+    {
+      "color_name": "red",
+      "palette_name": "redPalette",
+      "class_name": "colorBox on7",
+      "default": "#FF0000",
+      "color_palette": [
+        { "num": "50",  "hex": "#ffe7e6" },
+        { "num": "100", "hex": "#ffc7b8" },
+        { "num": "200", "hex": "#ffa28a" },
+        { "num": "300", "hex": "#ff795b" },
+        { "num": "400", "hex": "#ff5436" },
+        { "num": "500", "hex": "#ff200c" },
+        { "num": "600", "hex": "#ff1507" },
+        { "num": "700", "hex": "#ff0000" },
+        { "num": "800", "hex": "#f10000" },
+        { "num": "900", "hex": "#da0000" }
+      ]
+    },
+    {
+      "color_name": "redViolet",
+      "palette_name": "redVioletPalette",
+      "class_name": "colorBox on8",
+      "default": "#BB3385",
+      "color_palette": [
+        { "num": "50",  "hex": "#fce7f4" },
+        { "num": "100", "hex": "#f8c3e4" },
+        { "num": "200", "hex": "#f79dd2" },
+        { "num": "300", "hex": "#f875bf" },
+        { "num": "400", "hex": "#f957ad" },
+        { "num": "500", "hex": "#fd3b9a" },
+        { "num": "600", "hex": "#ea3994 " },
+        { "num": "700", "hex": "#d2368b" },
+        { "num": "800", "hex": "#bb3385" },
+        { "num": "900", "hex": "#932d78" }
+      ]
+    },
+    {
+      "color_name": "violet",
+      "palette_name": "rvioletPaletteedPalette",
+      "class_name": "colorBox on5",
+      "default": "#8000ff",
+      "color_palette": [
+        { "num": "50",  "hex": "#f2e7ff" },
+        { "num": "100", "hex": "#dcc3ff" },
+        { "num": "200", "hex": "#c59aff" },
+        { "num": "300", "hex": "#ac6cff" },
+        { "num": "400", "hex": "#9744ff" },
+        { "num": "500", "hex": "#8000ff" },
+        { "num": "600", "hex": "#7300f8" },
+        { "num": "700", "hex": "#6100f0" },
+        { "num": "800", "hex": "#4d00ec" },
+        { "num": "900", "hex": "#1d00e7" }
+      ]
+    },
+    {
+      "color_name": "blueViolet",
+      "palette_name": "blueVioletPalette",
+      "class_name": "colorBox on4",
+      "default": "#8a2be2",
+      "color_palette": [
+        { "num": "50",  "hex": "#f2e8fc" },
+        { "num": "100", "hex": "#ddc6f6" },
+        { "num": "200", "hex": "#c69ff2" },
+        { "num": "300", "hex": "#af75ed" },
+        { "num": "400", "hex": "#9c52e8" },
+        { "num": "500", "hex": "#8a2be2" },
+        { "num": "600", "hex": "#7f25db" },
+        { "num": "700", "hex": "#711ad3" },
+        { "num": "800", "hex": "#630fcd" },
+        { "num": "900", "hex": "#4d00c4" }
+      ]
+    },
+    {
+      "color_name": "blue",
+      "palette_name": "bluePalette",
+      "class_name": "colorBox on4",
+      "default": "#2962ff",
+      "color_palette": [
+        { "num": "50",  "hex": "#e7e9ff" },
+        { "num": "100", "hex": "#c2c8fe" },
+        { "num": "200", "hex": "#96a4fe" },
+        { "num": "300", "hex": "#6280ff" },
+        { "num": "400", "hex": "#2962ff" },
+        { "num": "500", "hex": "#0044fc" },
+        { "num": "600", "hex": "#003bf0" },
+        { "num": "700", "hex": "#002fe3" },
+        { "num": "800", "hex": "#0022d9" },
+        { "num": "900", "hex": "#0001c0" }
+      ]
+    },
+    {
+      "color_name": "blueGreen",
+      "palette_name": "blueGreenPalette",
+      "class_name": "colorBox on5",
+      "default": "#088F8F",
+      "color_palette": [
+        { "num": "50",  "hex": "#e0f1f2" },
+        { "num": "100", "hex": "#b2dcdf" },
+        { "num": "200", "hex": "#7fc7ca" },
+        { "num": "300", "hex": "#4db0b3" },
+        { "num": "400", "hex": "#27a0a2 " },
+        { "num": "500", "hex": "#088f8f" },
+        { "num": "600", "hex": "#088281" },
+        { "num": "700", "hex": "#087371" },
+        { "num": "800", "hex": "#0c6360" },
+        { "num": "900", "hex": "#0c4743" }
+      ]
+    },
+    {
+      "color_name": "green",
+      "palette_name": "greenPalette",
+      "class_name": "colorBox on3",
+      "default": "#36BEA6",
+      "color_palette": [
+        { "num": "50",  "hex": "#def4f0" },
+        { "num": "100", "hex": "#aee3d8" },
+        { "num": "200", "hex": "#77d1bf" },
+        { "num": "300", "hex": "#36bea5" },
+        { "num": "400", "hex": "#00af92" },
+        { "num": "500", "hex": "#009f80" },
+        { "num": "600", "hex": "#009273" },
+        { "num": "700", "hex": "#008263" },
+        { "num": "800", "hex": "#007155" },
+        { "num": "900", "hex": "#005539" }
+      ]
+    },
+    {
+      "color_name": "yellowGreen",
+      "palette_name": "yellowGreenPalette",
+      "class_name": "colorBox on5",
+      "default": "#9ACD32",
+      "color_palette": [
+        { "num": "50",  "hex": "#f3f9e8" },
+        { "num": "100", "hex": "#e2f0c4" },
+        { "num": "200", "hex": "#cee69f" },
+        { "num": "300", "hex": "#badd76" },
+        { "num": "400", "hex": "#a9d555" },
+        { "num": "500", "hex": "#99cd32" },
+        { "num": "600", "hex": "#89bd2a" },
+        { "num": "700", "hex": "#73a91f" },
+        { "num": "800", "hex": "#5e9514" },
+        { "num": "900", "hex": "#367300" }
+      ]
+    }
+  ]
+}
+
+
+
+
+
