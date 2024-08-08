@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.50e659e5.css",
-    "main.js": "/static/js/main.287c033e.js",
+    "main.js": "/static/js/main.2e5f388b.js",
     "static/js/453.944b34be.chunk.js": "/static/js/453.944b34be.chunk.js",
     "static/media/facebook-messenger-icon.svg": "/static/media/facebook-messenger-icon.71f8cc994aff8f93ba2d.svg",
     "static/media/dnp.svg": "/static/media/dnp.8145b03f1ad669292adc1cc8395d3454.svg",
@@ -54,11 +54,11 @@
     "static/media/three-horizontal-lines-outline-icon.svg": "/static/media/three-horizontal-lines-outline-icon.83c0d98bc5dc5d819f98.svg",
     "static/media/BsCheck.svg": "/static/media/BsCheck.adfcfd0e092502f49b4d.svg",
     "main.50e659e5.css.map": "/static/css/main.50e659e5.css.map",
-    "main.287c033e.js.map": "/static/js/main.287c033e.js.map",
+    "main.2e5f388b.js.map": "/static/js/main.2e5f388b.js.map",
     "453.944b34be.chunk.js.map": "/static/js/453.944b34be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50e659e5.css",
-    "static/js/main.287c033e.js"
+    "static/js/main.2e5f388b.js"
   ]
 }

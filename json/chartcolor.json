@@ -1,0 +1,275 @@
+{
+  "chartColor": [
+    {
+      "color_name": "RED",
+      "default": "#f44336",
+      "f_color": "#000",
+      "color_lighten": [
+        { "hex1": "#ffcdd2", "hex2": "#ef9a9a", "hex3": "#e57373", "hex4": "#ef5350"}
+      ],
+      "color_darken": [
+        { "hex1": "#e53935", "hex2": "#d32f2f", "hex3": "#c62828", "hex4": "#871c1c"}
+      ],
+      "color_accent": [
+        { "hex1": "#ff8a80", "hex2": "#ff5252", "hex3": "#ff1744", "hex4": "#d50000"}
+      ]
+    },
+    {
+      "color_name": "PINK",
+      "default": "#e91e63",
+      "f_color": "#000",
+      "color_lighten": [
+        { "hex1": "#f8bbd0", "hex2": "#f48fb1", "hex3": "#f06292", "hex4": "#ec407a"}
+      ],
+      "color_darken": [
+        { "hex1": "#d81b60", "hex2": "#c2185b", "hex3": "#ad1457", "hex4": "#880e4f"}
+      ],
+      "color_accent": [
+        { "hex1": "#ff80ab", "hex2": "#ff4081", "hex3": "#f50057", "hex4": "#c51162"}
+      ]
+    },
+    {
+      "color_name": "PURPLE",
+      "default": "#9c27b0",
+      "f_color": "#fff",
+      "color_lighten": [
+        { "hex1": "#e1bee7", "hex2": "#ce93d8", "hex3": "#ba68c8", "hex4": "#ab47bc"}
+      ],
+      "color_darken": [
+        { "hex1": "#8e24aa", "hex2": "#7b1fa2", "hex3": "#6a1b9a", "hex4": "#4a148c"}
+      ],
+      "color_accent": [
+        { "hex1": "#ea80fc", "hex2": "#e040fb", "hex3": "#d500f9", "hex4": "#aa00ff"}
+      ]
+    },
+    {
+      "color_name": "DEEPPURPLE",
+      "default": "#673ab7",
+      "f_color": "#fff",
+      "color_lighten": [
+        { "hex1": "#d1c4e9", "hex2": "#b39ddb", "hex3": "#9575cd", "hex4": "#7e57c2"}
+      ],
+      "color_darken": [
+        { "hex1": "#5e35b1", "hex2": "#512da8", "hex3": "#4527a0", "hex4": "#311b92"}
+      ],
+      "color_accent": [
+        { "hex1": "#b388ff", "hex2": "#7c4dff", "hex3": "#651fff", "hex4": "#6200ea"}
+      ]
+    },
+    {
+      "color_name": "INDIGO",
+      "default": "#3f51b5",
+      "f_color": "#fff",
+      "color_lighten": [
+        { "hex1": "#c5cae9", "hex2": "#9fa8da", "hex3": "#7986cb", "hex4": "#5c6bc0"}
+      ],
+      "color_darken": [
+        { "hex1": "#3949ab", "hex2": "#303f9f", "hex3": "#283593", "hex4": "#1a237e"}
+      ],
+      "color_accent": [
+        { "hex1": "#8c9eff", "hex2": "#536dfe", "hex3": "#3d5afe", "hex4": "#304ffe"}
+      ]
+    },
+    {
+      "color_name": "BLUE",
+      "default": "#2196f3",
+      "f_color": "#000",
+      "color_lighten": [
+        { "hex1": "#bbdefb", "hex2": "#90caf9", "hex3": "#64b5f6", "hex4": "#42a5f5"}
+      ],
+      "color_darken": [
+        { "hex1": "#1e88e5", "hex2": "#1976d2", "hex3": "#1565c0", "hex4": "#0d47a1"}
+      ],
+      "color_accent": [
+        { "hex1": "#82b1ff", "hex2": "#448aff", "hex3": "#2979ff", "hex4": "#2962ff"}
+      ]
+    },
+    {
+      "color_name": "LIGHTBLUE",
+      "default": "#03a9f4",
+      "f_color": "#000",
+      "color_lighten": [
+        { "hex1": "#b3e5fc", "hex2": "#81d4fa", "hex3": "#4fc3f7", "hex4": "#29b6f6"}
+      ],
+      "color_darken": [
+        { "hex1": "#039be5", "hex2": "#0288d1", "hex3": "#0277bd", "hex4": "#01579b"}
+      ],
+      "color_accent": [
+        { "hex1": "#80d8ff", "hex2": "#40caff", "hex3": "#00b0ff", "hex4": "#0091ea"}
+      ]
+    },
+    {
+      "color_name": "CYAN",
+      "default": "#00bcd4",
+      "f_color": "#000",
+      "color_lighten": [
+        { "hex1": "#b2ebf2", "hex2": "#80deea", "hex3": "#4dd0e1", "hex4": "#26c6da"}
+      ],
+      "color_darken": [
+        { "hex1": "#00acc1", "hex2": "#0097a7", "hex3": "#00838f", "hex4": "#006064"}
+      ],
+      "color_accent": [
+        { "hex1": "#84ffff", "hex2": "#18ffff", "hex3": "#00e5ff", "hex4": "#00b8d4"}
+      ]
+    },
+    {
+      "color_name": "TEAL",
+      "default": "#009688",
+      "f_color": "#000",
+      "color_lighten": [
+        { "hex1": "#b2dfd8", "hex2": "#80cbc4", "hex3": "#4db6ac", "hex4": "#26a69a"}
+      ],
+      "color_darken": [
+        { "hex1": "#00897b", "hex2": "#00796b", "hex3": "#00695c", "hex4": "#004d40"}
+      ],
+      "color_accent": [
+        { "hex1": "#a7ffeb", "hex2": "#64ffda", "hex3": "#1de9b6", "hex4": "#00bfa5"}
+      ]
+    },
+    {
+      "color_name": "GREEN",
+      "default": "#4caf50",
+      "f_color": "#000",
+      "color_lighten": [
+        { "hex1": "#c8e6c9", "hex2": "#a5d6a7", "hex3": "#81c784", "hex4": "#66bb6a"}
+      ],
+      "color_darken": [
+        { "hex1": "#43a047", "hex2": "#388e3c", "hex3": "#2e7d32", "hex4": "#1b5e20"}
+      ],
+      "color_accent": [
+        { "hex1": "#b9f6ca", "hex2": "#69f0ae", "hex3": "#00e676", "hex4": "#00c853"}
+      ]
+    },
+    {
+      "color_name": "LIGHTGREEN",
+      "default": "#8bc34a",
+      "f_color": "#000",
+      "color_lighten": [
+        { "hex1": "#dcedc8", "hex2": "#c5e1a5", "hex3": "#aed581", "hex4": "#9ccc65"}
+      ],
+      "color_darken": [
+        { "hex1": "#7cb342", "hex2": "#689f38", "hex3": "#558b2f", "hex4": "#33691e"}
+      ],
+      "color_accent": [
+        { "hex1": "#ccff90", "hex2": "#b2ff59", "hex3": "#76ff03", "hex4": "#64dd17"}
+      ]
+    },
+    {
+      "color_name": "LIME",
+      "default": "#cddc39",
+      "f_color": "#000",
+      "color_lighten": [
+        { "hex1": "#f0f4c3", "hex2": "#e6ee9c", "hex3": "#dce775", "hex4": "#d4e157"}
+      ],
+      "color_darken": [
+        { "hex1": "#c0ca33", "hex2": "#afb42b", "hex3": "#9e9d24", "hex4": "#827717"}
+      ],
+      "color_accent": [
+        { "hex1": "#f4ff81", "hex2": "#eeff41", "hex3": "#c6ff00", "hex4": "#aeea00"}
+      ]
+    },
+    {
+      "color_name": "YELLOW",
+      "default": "#ffeb3b",
+      "f_color": "#000",
+      "color_lighten": [
+        { "hex1": "#fff9c4", "hex2": "#fff59d", "hex3": "#fff176", "hex4": "#ffee58"}
+      ],
+      "color_darken": [
+        { "hex1": "#fdd835", "hex2": "#fbc02d", "hex3": "#f9a825", "hex4": "#f57f17"}
+      ],
+      "color_accent": [
+        { "hex1": "#ffff8d", "hex2": "#ffff00", "hex3": "#ffea00", "hex4": "#ffd600"}
+      ]
+    },
+    {
+      "color_name": "AMBER",
+      "default": "#ffc107",
+      "f_color": "#000",
+      "color_lighten": [
+        { "hex1": "#ffecb3", "hex2": "#ffe082", "hex3": "#ffd54f", "hex4": "#ffca28"}
+      ],
+      "color_darken": [
+        { "hex1": "#ffb300", "hex2": "#ffa000", "hex3": "#ff8f00", "hex4": "#ff6f00"}
+      ],
+      "color_accent": [
+        { "hex1": "#ffe57f", "hex2": "#ffd740", "hex3": "#ffc400", "hex4": "#ffab00"}
+      ]
+    },
+    {
+      "color_name": "ORANGE",
+      "default": "#ffc107",
+      "f_color": "#000",
+      "color_lighten": [
+        { "hex1": "#ffe0b2", "hex2": "#ffcc80", "hex3": "#ffb74d", "hex4": "#ffa726"}
+      ],
+      "color_darken": [
+        { "hex1": "#fb8c00", "hex2": "#f57c00", "hex3": "#ef6c00", "hex4": "#e65100"}
+      ],
+      "color_accent": [
+        { "hex1": "#ffd180", "hex2": "#ffab40", "hex3": "#ff9100", "hex4": "#ff6d00"}
+      ]
+    },
+    {
+      "color_name": "DEEPORANGE",
+      "default": "#ff5722",
+      "f_color": "#000",
+      "color_lighten": [
+        { "hex1": "#ffccbc", "hex2": "#ffab91", "hex3": "#ff8a65", "hex4": "#ff7043"}
+      ],
+      "color_darken": [
+        { "hex1": "#f4511e", "hex2": "#e64a19", "hex3": "#d84315", "hex4": "#bf360c"}
+      ],
+      "color_accent": [
+        { "hex1": "#ff9e80", "hex2": "#ff6e40", "hex3": "#ff3d00", "hex4": "#dd2c00"}
+      ]
+    },
+    {
+      "color_name": "BROWN",
+      "default": "#795548",
+      "f_color": "#fff",
+      "color_lighten": [
+        { "hex1": "#d7ccc8", "hex2": "#bcaaa4", "hex3": "#a1887f", "hex4": "#8d6e63"}
+      ],
+      "color_darken": [
+        { "hex1": "#6d4c41", "hex2": "#5d4037", "hex3": "#4e342e", "hex4": "#3e2723"}
+      ],
+      "color_accent": [
+        { "hex1": "-", "hex2": "-", "hex3": "-", "hex4": "-"}
+      ]
+    },
+    {
+      "color_name": "BlueGray",
+      "default": "#607d8b",
+      "f_color": "#000",
+      "color_lighten": [
+        { "hex1": "#cfd8dc", "hex2": "#b0bec5", "hex3": "#90a4ae", "hex4": "#78909c"}
+      ],
+      "color_darken": [
+        { "hex1": "#546e7a", "hex2": "#455a64", "hex3": "#37474f", "hex4": "#263238"}
+      ],
+      "color_accent": [
+        { "hex1": "-", "hex2": "-", "hex3": "-", "hex4": "-"}
+      ]
+    },
+    {
+      "color_name": "GRAY",
+      "default": "#9e9e9e",
+      "f_color": "#000",
+      "color_lighten": [
+        { "hex1": "#f5f5f5", "hex2": "#eeeeee", "hex3": "#e0e0e0", "hex4": "#bdbdbd"}
+      ],
+      "color_darken": [
+        { "hex1": "#757575", "hex2": "#616161", "hex3": "#424242", "hex4": "#212121"}
+      ],
+      "color_accent": [
+        { "hex1": "-", "hex2": "-", "hex3": "-", "hex4": "-"}
+      ]
+    }
+  ]
+}
+
+
+
+
+
