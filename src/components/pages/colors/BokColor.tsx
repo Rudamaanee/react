@@ -7,7 +7,8 @@ const BokColor = () => {
   const [bok, setData] = useState([]);
 
   useEffect(() => {
-    fetch('./json/bokColor.json', {
+    fetch('./json/bokcolor.json', {
+    // fetch('./react/json/bokcolor.json', { // deploy 시
       headers: {
         Accept: "application / json",
       },

@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project dcd,,irectory, you can run:
 
 ### `npm start`
 
@@ -17,7 +17,8 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+See the section about [
+  running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -44,3 +45,52 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+==========================================================================
+
+# react 설치
+준비 node.js 설치 npm 설치 확인 => node -v / npm -v
+
+## ts로 프로젝트 생성
+npx create-react-app ts-guide --template typescript
+                    생성될폴더명
+npx create-react-app ts-boot --template typescript
+
+## 기본 프로젝트에 ts 적용
+$npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+
+### scss 설치시 해당 폴더에서 설치
+해당폴더 $npm i sass
+css -> scss 로 변경
+
+
+### react-bootstrap 설치 
+해당폴더 $npm install react-bootstrap bootstrap
+아이콘 설치
+$npm i bootstrap-icons
+
+#### App.js 또는 index.js 추가
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+##### 서버 실행
+npm start
+serve -s build
+
+==========================================================================
+
+# git react 배포
+
+npm install gh-pages 실행
+
+package.json 수정
+
+"homepage": "https://rudamaanee.github.io/", //git 주소
+"name": "react",
+"scripts": {
+    (...)
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+
+npm run deploy

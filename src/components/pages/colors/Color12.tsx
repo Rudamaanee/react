@@ -7,7 +7,8 @@ const ColorList = () => {
   const [bok, setData] = useState([]);
 
   useEffect(() => {
-    fetch('./json/colorChart12.json', {
+    fetch('./json/colorchart12.json', {
+    // fetch('./react/json/colorchart12.json', { // deploy 시
       headers: {
         Accept: "application / json",
       },

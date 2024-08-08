@@ -5,7 +5,8 @@ const ChartColor = () => {
   const [chart, setData] = useState([]);
 
   useEffect(() => {
-    fetch('./json/chartColor.json', {
+    fetch('./json/chartcolor.json', {
+    // fetch('./react/json/chartcolor.json', { // deploy 시
       headers: {
         Accept: "application / json",
       },
