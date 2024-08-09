@@ -51,8 +51,10 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 # react 설치 &color=purple
 
 준비 node.js 설치 npm 설치 확인 => 
-` node -v
-npm -v ` 
+``` C
+node -v
+npm -v
+```
 
 ## ts로 프로젝트 생성
 npx create-react-app ts-guide --template typescript
