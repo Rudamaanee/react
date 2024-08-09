@@ -49,6 +49,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ==========================================================================
 
 # react 설치
+<img src="https://capsule-render.vercel.app/api?type=모양&color=#fff&height=50&section=header&text=React 설치&fontSize=24" />
+
 준비 node.js 설치 npm 설치 확인 => node -v / npm -v
 
 ## ts로 프로젝트 생성
