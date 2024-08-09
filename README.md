@@ -48,7 +48,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ==========================================================================
 
-# react 설치 &color=purple
+# react 설치
 
 준비 node.js 설치 npm 설치 확인 => 
 
@@ -66,26 +66,36 @@ npx create-react-app ts-guide --template typescript
 npx create-react-app ts-boot --template typescript
 
 ## 기본 프로젝트에 ts 적용
+``` C
 $npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+```
 
 ### scss 설치시 해당 폴더에서 설치
-해당폴더 $npm i sass
+해당폴더에서
+``` C
+$npm i sass
+```
 css -> scss 로 변경
 
 
 ### react-bootstrap 설치 
 해당폴더 $npm install react-bootstrap bootstrap
 아이콘 설치
+``` C
 $npm i bootstrap-icons
-
+```
 #### App.js 또는 index.js 추가
+``` C
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+```
 
 ##### 서버 실행
+``` C
 npm start
+```
+``` C
 serve -s build
-
+```
 ==========================================================================
 
 # git react 배포
@@ -102,4 +112,6 @@ package.json 수정
     "deploy": "gh-pages -d build"
   },
 
+``` C
 npm run deploy
+```
