@@ -51,8 +51,12 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 # react 설치 &color=purple
 
 준비 node.js 설치 npm 설치 확인 => 
+
 ``` C
 node -v
+```
+
+``` C
 npm -v
 ```
 
