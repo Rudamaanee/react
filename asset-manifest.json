@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react/static/css/main.b0eb2d6c.css",
-    "main.js": "/react/static/js/main.76df703e.js",
+    "main.js": "/react/static/js/main.5582c9d0.js",
     "static/js/453.944b34be.chunk.js": "/react/static/js/453.944b34be.chunk.js",
     "static/media/facebook-messenger-icon.svg": "/react/static/media/facebook-messenger-icon.71f8cc994aff8f93ba2d.svg",
     "static/media/dnp.svg": "/react/static/media/dnp.8145b03f1ad669292adc1cc8395d3454.svg",
@@ -54,11 +54,11 @@
     "static/media/three-horizontal-lines-outline-icon.svg": "/react/static/media/three-horizontal-lines-outline-icon.83c0d98bc5dc5d819f98.svg",
     "static/media/BsCheck.svg": "/react/static/media/BsCheck.adfcfd0e092502f49b4d.svg",
     "main.b0eb2d6c.css.map": "/react/static/css/main.b0eb2d6c.css.map",
-    "main.76df703e.js.map": "/react/static/js/main.76df703e.js.map",
+    "main.5582c9d0.js.map": "/react/static/js/main.5582c9d0.js.map",
     "453.944b34be.chunk.js.map": "/react/static/js/453.944b34be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0eb2d6c.css",
-    "static/js/main.76df703e.js"
+    "static/js/main.5582c9d0.js"
   ]
 }
