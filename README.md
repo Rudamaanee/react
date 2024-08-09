@@ -85,7 +85,7 @@ npm install gh-pages 실행
 
 package.json 수정
 
-"homepage": "https://rudamaanee.github.io/", //git 주소
+"homepage": "https://rudamaanee.github.io/react", //git 주소
 "name": "react",
 "scripts": {
     (...)
