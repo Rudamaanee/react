@@ -93,7 +93,7 @@ function FilterForm({ initialValues, onSubmit }) {
             setValues({ ...values, search: value })
           }
         />
-        <button type="button" className="btn primary">검색</button>
+        <button className="btn primary">검색</button>
       </div>
     </form>
   );

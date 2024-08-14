@@ -12,7 +12,7 @@ function Products({ products, loading }) {
         return (
           <article key={product.id} className="col box-shadow n42">
             <header>{product.title}</header>
-            <img src={product.thumbnail} alt={product.title} />
+            <div className="img"><img src={product.thumbnail} alt={product.title} /></div>
             {reviews.map(reviews => {
               return (
                 <div className="num">{reviews.reviewerName}</div>
