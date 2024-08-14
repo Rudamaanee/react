@@ -25,6 +25,7 @@ import Dashboard2         from './components/pages/dashboard/Dashboard2'
 import Error403           from './components/pages/errors/Error403'
 import Error404           from './components/pages/errors/Error404'
 import Error500           from './components/pages/errors/Error500'
+import SearchFilter       from './components/pages/searchFilter/SearchFilter'
 
 import FormsTab           from './components/elements/forms/FormsTab'
 import IconsAll           from './components/elements/icons/IconsAll'
@@ -96,6 +97,7 @@ export default function App() {
                     <Route path="/shadows" element={<Shadows />} />
                     <Route path="/helperclasses" element={<HelperClasses />} />
                     <Route path="/calendar" element={<Calendar />} />
+                    <Route path="/searchFilter" element={<SearchFilter />} />
 
                     { /*bootstrap */}
                     <Route path="/Accordion" element={<Accordion />} />

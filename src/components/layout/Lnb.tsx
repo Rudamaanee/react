@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ChevronDown, Grid } from 'react-bootstrap-icons';
-import { BsBarChartFill, BsExclamationTriangleFill, BsFileEarmarkText, BsFillQuestionCircleFill, BsStackOverflow, BsTable, BsWrenchAdjustable } from "react-icons/bs";
+import { BsBarChartFill, BsExclamationTriangleFill, BsFileEarmarkText, BsFillQuestionCircleFill, BsSearch, BsStackOverflow, BsTable, BsWrenchAdjustable } from "react-icons/bs";
 import { AiFillDashboard } from "react-icons/ai";
 
 const lnb = () => {
@@ -35,6 +35,7 @@ const lnb = () => {
           <Link to={"/formsTab"} className="nav-link active"><i className="ico"><BsFileEarmarkText /></i> <code>Forms</code></Link>
           <Link to={"/iconsAll"} className="nav-link"><i className="ico"><Grid /></i><code>Icons</code></Link>
           <Link to={"/tables"} className="nav-link"><i className="ico"><BsTable /></i><code>Tables</code></Link>
+          <Link to={"/searchFilter"} className="nav-link"><i className="ico"><BsSearch /></i><code>SearchFilter</code></Link>
           <Link to={"/charts"} className="nav-link"><i className="ico"><BsBarChartFill /></i> <code>Charts</code></Link>
           <div className="depth2 active">
             <Link to={"/Chartjsv3"} className="nav-link"><code>Chartjs v3</code></Link>
