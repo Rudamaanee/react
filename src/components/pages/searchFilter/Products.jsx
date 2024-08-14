@@ -6,11 +6,11 @@ function Products({ products, loading }) {
       </article>
     );
   return (
-    <div className="grid">
+    <div className="row">
       {products.map(product => {
         const reviews = product.reviews;
         return (
-          <article key={product.id}>
+          <article key={product.id} className="col box-shadow n42">
             <header>{product.title}</header>
             <img src={product.thumbnail} alt={product.title} />
             {reviews.map(reviews => {

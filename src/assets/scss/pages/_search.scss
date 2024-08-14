@@ -141,3 +141,58 @@
     margin-right: 5px;
   }
 } //.board-search-box
+
+.searchFilter {
+  header {
+    h1 {
+      font-size: 1.6rem;
+    }
+    h2 {
+      font-size: 1.4rem;
+    }
+  } // header
+  form {
+    select {
+      width: 100%;
+    }
+    label {
+      width: 33.3%;
+      margin: 10px 0;
+      input {
+        margin-right: 4px;
+      }
+
+    }
+    fieldset {
+      $w: 56px;
+      + div {
+        > * {
+          vertical-align: middle;
+        }
+        input {
+          height: 35px;
+          width: calc(100% - #{$w});
+          border: 1px solid $mainColorA;
+        }
+        button {
+          @include border-radius(0)
+        }
+      }
+    }
+  } //form
+  main {
+    padding: 1rem 0;
+    .row {
+      gap: 20px;
+      padding: 16px;
+    }
+    article {
+      width: calc((100% / 3) - ((20px * 2) / 3));
+      padding: 0;
+      background-color: $whiteSmoke;
+      header {
+        padding: 16px;
+      }
+    }
+  } //main
+} //.searchFilter

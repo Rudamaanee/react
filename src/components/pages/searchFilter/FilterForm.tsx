@@ -29,72 +29,72 @@ function FilterForm({ initialValues, onSubmit }) {
         <option value="home-decoration">장식품</option>
       </select>
       <fieldset>
-        <div className="grid">
-          <label>
-            <input
-              type="checkbox"
-              checked={values.brands.includes("Apple")}
-              onChange={({ target: { checked } }) => checked
-                ? setValues({
-                  ...values,
-                  brands: values.brands.concat("Apple")
-                })
-                : setValues({
-                  ...values,
-                  brands: values.brands.filter((brand) => brand !== "Apple")
-                })
-              }
-            />
-            Apple
-          </label>
-          <label>
-            <input
-              type="checkbox"
-              checked={values.brands.includes("Samsung")}
-              onChange={({ target: { checked } }) => checked
-                ? setValues({
-                  ...values,
-                  brands: values.brands.concat("Samsung")
-                })
-                : setValues({
-                  ...values,
-                  brands: values.brands.filter(
-                    (brand) => brand !== "Samsung"
-                  )
-                })
-              }
-            />
-            Samsung
-          </label>
-          <label>
-            <input
-              type="checkbox"
-              checked={values.brands.includes("Essence")}
-              onChange={({ target: { checked } }) => checked
-                ? setValues({
-                  ...values,
-                  brands: values.brands.concat("Essence")
-                })
-                : setValues({
-                  ...values,
-                  brands: values.brands.filter(
-                    (brand) => brand !== "Essence"
-                  )
-                })
-              }
-            />
-            Essence
-          </label>
-        </div>
+        <label>
+          <input
+            type="checkbox"
+            checked={values.brands.includes("Apple")}
+            onChange={({ target: { checked } }) => checked
+              ? setValues({
+                ...values,
+                brands: values.brands.concat("Apple")
+              })
+              : setValues({
+                ...values,
+                brands: values.brands.filter((brand) => brand !== "Apple")
+              })
+            }
+          />
+          Apple
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            checked={values.brands.includes("Samsung")}
+            onChange={({ target: { checked } }) => checked
+              ? setValues({
+                ...values,
+                brands: values.brands.concat("Samsung")
+              })
+              : setValues({
+                ...values,
+                brands: values.brands.filter(
+                  (brand) => brand !== "Samsung"
+                )
+              })
+            }
+          />
+          Samsung
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            checked={values.brands.includes("Essence")}
+            onChange={({ target: { checked } }) => checked
+              ? setValues({
+                ...values,
+                brands: values.brands.concat("Essence")
+              })
+              : setValues({
+                ...values,
+                brands: values.brands.filter(
+                  (brand) => brand !== "Essence"
+                )
+              })
+            }
+          />
+          Essence
+        </label>
       </fieldset>
-      <input
-        placeholder="검색어 입력"
-        value={values.search}
-        onChange={({ target: { value } }) =>
-          setValues({ ...values, search: value })
-        }
-      />
-      <button>검색</button>
+      <div>
+        <input
+          placeholder="검색어 입력"
+          value={values.search}
+          onChange={({ target: { value } }) =>
+            setValues({ ...values, search: value })
+          }
+        />
+        <button type="button" className="btn primary">검색</button>
+      </div>
     </form>
   );
 }

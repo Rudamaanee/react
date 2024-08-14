@@ -14,8 +14,8 @@ function SearchFilter() {
   } = useProducts();
 
   return (
-    <>
-      <header className="container">
+    <div className="searchFilter">
+      <header>
         <hgroup>
           <h1>상품 목록</h1>
           <h2>
@@ -24,10 +24,10 @@ function SearchFilter() {
         </hgroup>
         <FilterForm initialValues={filterValues} onSubmit={submitFilter} />
       </header>
-      <main className="container">
+      <main>
         <Products products={products} loading={loading} />
       </main>
-    </>
+    </div>
   );
 }
 
