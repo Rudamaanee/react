@@ -188,15 +188,38 @@
     }
     article {
       width: calc((100% / 3) - ((20px * 2) / 3));
-      padding: 0;
+      padding: 16px;
       background-color: $whiteSmoke;
       header {
-        padding: 16px;
-      }
-      .img {
-        text-align: center;
-        background-color: $white;
+        .img {
+          text-align: center;
+          background-color: $white;
+          img {
+            width: 100%;
+          }
+        }
+        .subject {
+          font-size: 1.6rem;
+        }
       }
     }
   } //main
+  .keywords {
+    a {
+      display: inline-block;
+      padding: 3px 12px;
+      margin-right: 4px;
+      margin-bottom: 4px;
+      font-size: 14px;
+      color: $font-base-color;
+      text-decoration: none;
+      border: 1px solid $silver;
+      @include border-radius(30px);
+      background-color: $white;
+      &:hover {
+        color: $white;
+        background-color: $bokDarkBlue;
+      }
+    }
+  }
 } //.searchFilter

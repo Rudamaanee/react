@@ -21,68 +21,65 @@ function FilterForm({ initialValues, onSubmit }) {
         }
       >
         <option value="">모두</option>
-        <option value="smartphones">스마트폰</option>
-        <option value="laptops">노트북</option>
-        <option value="fragrances">향수</option>
-        <option value="skincare">화장품</option>
-        <option value="groceries">식료품</option>
-        <option value="home-decoration">장식품</option>
+        <option value="블로그">블로그</option>
+        <option value="정책 컨퍼런스">정책 컨퍼런스</option>
+        <option value="보도자료">보도자료</option>
       </select>
       <fieldset>
         <label>
           <input
             type="checkbox"
-            checked={values.brands.includes("Apple")}
+            checked={values.chefs.includes("chef1")}
             onChange={({ target: { checked } }) => checked
               ? setValues({
                 ...values,
-                brands: values.brands.concat("Apple")
+                chefs: values.chefs.concat("chef1")
               })
               : setValues({
                 ...values,
-                brands: values.brands.filter((brand) => brand !== "Apple")
+                chefs: values.chefs.filter((chef) => chef !== "chef1")
               })
             }
           />
-          Apple
+          chef1
         </label>
         <label>
           <input
             type="checkbox"
-            checked={values.brands.includes("Samsung")}
+            checked={values.chefs.includes("chef2")}
             onChange={({ target: { checked } }) => checked
               ? setValues({
                 ...values,
-                brands: values.brands.concat("Samsung")
+                chefs: values.chefs.concat("chef2")
               })
               : setValues({
                 ...values,
-                brands: values.brands.filter(
-                  (brand) => brand !== "Samsung"
+                chefs: values.chefs.filter(
+                  (chef) => chef !== "chef2"
                 )
               })
             }
           />
-          Samsung
+          chef2
         </label>
         <label>
           <input
             type="checkbox"
-            checked={values.brands.includes("Essence")}
+            checked={values.chefs.includes("chef3")}
             onChange={({ target: { checked } }) => checked
               ? setValues({
                 ...values,
-                brands: values.brands.concat("Essence")
+                chefs: values.chefs.concat("chef3")
               })
               : setValues({
                 ...values,
-                brands: values.brands.filter(
-                  (brand) => brand !== "Essence"
+                chefs: values.chefs.filter(
+                  (chef) => chef !== "chef3"
                 )
               })
             }
           />
-          Essence
+          chef3
         </label>
       </fieldset>
       <div>
@@ -93,7 +90,7 @@ function FilterForm({ initialValues, onSubmit }) {
             setValues({ ...values, search: value })
           }
         />
-        <button className="btn primary">검색</button>
+        <button type="submit" className="btn primary">검색</button>
       </div>
     </form>
   );

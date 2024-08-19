@@ -1,13 +1,13 @@
 import React from "react";
 import FilterForm from "./FilterForm";
-import Products from "./Products";
+import Items from "./Items";
 import useProducts from "./useProducts";
 
 function SearchFilter() {
 
   const {
     total,
-    products,
+    items,
     loading,
     filterValues,
     submitFilter
@@ -17,15 +17,12 @@ function SearchFilter() {
     <div className="searchFilter">
       <header>
         <hgroup>
-          <h1>상품 목록</h1>
-          <h2>
-            {products.length} / {total}
-          </h2>
+          <h1>뉴스/자료 <small>({items.length} / {total})</small></h1>
         </hgroup>
         <FilterForm initialValues={filterValues} onSubmit={submitFilter} />
       </header>
       <main>
-        <Products products={products} loading={loading} />
+        <Items items={items} loading={loading} />
       </main>
     </div>
   );

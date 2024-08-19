@@ -3,20 +3,20 @@ import qs from "qs";
 
 const defaultFilterValues = {
   category: "",
-  brands: [],
+  chefs: [],
   search: ""
 };
 
-function useProducts() {
-  const [products, setProducts] = React.useState([]);
+function useItems() {
+  const [items, setItems] = React.useState([]);
   const [loading, setLoading] = React.useState(true);
 
   React.useEffect(() => {
     setTimeout(() => {
       fetch("./react/json/dummyjson.json")
         .then((res) => res.json())
-        .then(({ products }) => {
-          setProducts(products);
+        .then(({ items }) => {
+          setItems(items);
           setLoading(false);
         });
     }, 1000);
@@ -43,39 +43,39 @@ function useProducts() {
     window.history.pushState({}, "", "?" + qs.stringify(filter));
   };
 
-  const filteredProducts = React.useMemo(
+  const filterItems = React.useMemo(
     () =>
-      products
+      items
         .filter(
-          (product) =>
-            !filterValues.category || product.category === filterValues.category
+          (item) =>
+            !filterValues.category || item.category === filterValues.category
         )
         .filter(
-          (product) =>
-            !filterValues.brands ||
-            filterValues.brands.length === 0 ||
-            filterValues.brands.includes(product.brand)
+          (item) =>
+            !filterValues.chefs ||
+            filterValues.chefs.length === 0 ||
+            filterValues.chefs.includes(item.chef)
         )
         .filter(
-          (product) =>
+          (item) =>
             !filterValues.search ||
-            product.title
+            item.subject
               .toLowerCase()
               .includes(filterValues.search.toLowerCase()) ||
-            product.description
+            item.depart
               .toLowerCase()
               .includes(filterValues.search.toLowerCase())
         ),
-    [products, filterValues]
+    [items, filterValues]
   );
 
   return {
-    total: products.length,
-    products: filteredProducts,
+    total: items.length,
+    items: filterItems,
     loading,
     filterValues,
     submitFilter
   };
 }
 
-export default useProducts;
+export default useItems;
