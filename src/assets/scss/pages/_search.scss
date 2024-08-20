@@ -185,21 +185,21 @@
     .row {
       gap: 20px;
       padding: 16px;
-    }
-    article {
-      width: calc((100% / 3) - ((20px * 2) / 3));
-      padding: 16px;
-      background-color: $whiteSmoke;
-      header {
-        .img {
-          text-align: center;
-          background-color: $white;
-          img {
-            width: 100%;
+      .col {
+        width: calc((100% / 3) - ((20px * 2) / 3));
+        padding: 16px;
+        background-color: $whiteSmoke;
+        header {
+          .img {
+            text-align: center;
+            background-color: $white;
+            img {
+              width: 100%;
+            }
           }
-        }
-        .subject {
-          font-size: 1.6rem;
+          .subject {
+            font-size: 1.6rem;
+          }
         }
       }
     }
