@@ -1,10 +1,9 @@
 import React from "react";
-import FilterForm from "./FilterForm";
-import Items from "./Items";
-import useProducts from "./useProducts";
+import FilterForm from "./mustGoPlace/FilterForm";
+import Items from "./mustGoPlace/Items";
+import useProducts from "./mustGoPlace/useProducts";
 
 function SearchFilter() {
-
   const {
     total,
     items,
@@ -14,10 +13,10 @@ function SearchFilter() {
   } = useProducts();
 
   return (
-    <div className="searchFilter">
+    <div className="mustGoPlace">
       <header>
         <hgroup>
-          <h1>뉴스/자료 <small>({items.length} / {total})</small></h1>
+          <h1>기본검색 <small>({items.length} / {total})</small></h1>
         </hgroup>
         <FilterForm initialValues={filterValues} onSubmit={submitFilter} />
       </header>

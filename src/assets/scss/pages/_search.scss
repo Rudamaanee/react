@@ -223,3 +223,36 @@
     }
   }
 } //.searchFilter
+
+.mustGoPlace {
+  .searchbox {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    width: 100%;
+    .grp {
+      flex: 1 0;
+    }
+    
+  }
+  .tit {
+    margin: 16px 0 8px;
+    font-size: 12px;
+    color: $silver;
+  }
+  .textSearch {
+    input {
+      width: calc(100% - 54px);
+      vertical-align: middle;
+      @include border-top-right-radius(0);
+      @include border-bottom-right-radius(0);
+      + button {
+        @include border-top-left-radius(0);
+        @include border-bottom-left-radius(0);
+      }
+    }
+  }
+  main {
+    padding: 1rem;
+  }
+} //.mustGoPlace
